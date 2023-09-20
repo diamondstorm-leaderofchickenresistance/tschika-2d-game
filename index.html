@@ -1,15 +1,23 @@
 <!doctype html>
 <html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <title>tschika 2d game</title>
+<head>
+<link rel="stylesheet" href="styles.css">
+<meta charset="utf-8" />
+<link rel="icon" href="docs/assets/tschika 16by16 icon.png" type="image/x-icon">
+<title>tschika 2d game</title>
 
-  </head>
-  <body>
-    <canvas id="myCanvas" width="480" height="320"></canvas>
+</head>
+<body>
+<canvas id="myCanvas" width="480" height="320"></canvas>
 
-    <script>
-      // JavaScript code goes here
-    </script>
-  </body>
+<script>
+const canvas = document.getElementById("myCanvas");
+const ctx = canvas.getContext("2d");
+ctx.beginPath();
+ctx.rect(20, 40, 50, 50);
+ctx.fillStyle = "rgb(255,0,0)";
+ctx.fill();
+ctx.closePath();
+</script>
+</body>
 </html>
