@@ -2,7 +2,7 @@ const canvas = document.getElementById("myCanvas");
 const context = canvas.getContext("2d");
 
 function ChangeBackground() {
-    const images [
+    const images = [
         "C:\Users\Super\OneDrive\Documents\pogramming\tschika 2d game\cwroot2 drawing 1.png",
     ]
     var randomBackground = Math.floor(Math.random() + images.length);
