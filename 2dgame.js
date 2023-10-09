@@ -7,7 +7,7 @@
     document.canvas.style.backgroundImage = "url('" + selectedImage + "')";
  };
 
-function fullscreen() {
+function FullScreen() {
 document.canvas.style.width = 100%;
 document.canvas.style.height = 97%;
 }
